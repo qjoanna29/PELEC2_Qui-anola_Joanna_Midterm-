@@ -1,0 +1,187 @@
+
+
+
+            /* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background: #f9f3f6;
+    color: #4a4a4a;
+}
+
+
+/* Header */
+header {
+    background: #ff6f61;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Styles */
+section {
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover Effect for Sections */
+section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+
+
+}
+
+/* Headings */
+h2 {
+    color: #ff6f61;
+    border-bottom: 3px solid #ff9a8b;
+    padding-bottom: 5px;
+}
+
+/* Buttons */
+button {
+    background: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+    transition: background 0.3s, transform 0.3s;
+}
+
+button:hover {
+    background: #ff9a8b;
+    transform: scale(1.05);
+
+}
+
+/* Image Styles */
+img {
+    border: 5px solid #D8C8A8; /* Soft Beige */
+    border-radius: 50%; /* Fully rounded */
+}
+}
+
+/* List Styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #ffebee;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background 0.3s;
+}
+
+li:hover {
+    background: #ffccdc;
+}
+
+/* Contact Links */
+a {
+    color: #ff6f61;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+    section {
+        margin: 10px;
+        padding: 15px;
+    }
+    button {
+        width: 100%;
+    }
+}
+
+    </style>
+
+</head>
+<body>
+
+<header>
+    <h1>Hey it's me Jo</h1>
+</header>
+
+<section id="introduction">
+    <h2>Introduction</h2>
+    <img src="ning.jpg" height="200" width="300" alt="Joanna B. Quiñanola">
+    <p>Jo is my nickname that reflects my approachable and friendly nature just like I believe in keeping things simple yet impactful <3</p>
+    <button onclick="document.getElementById('about-me').scrollIntoView();">About Me</button>
+    <button onclick="document.getElementById('education').scrollIntoView();">Education</button>
+    <button onclick="document.getElementById('skills').scrollIntoView();">Skills</button>
+    <button onclick="document.getElementById('contact').scrollIntoView();">Contact</button>
+</section>
+
+<section id="about-me">
+    <h2>About Me</h2>
+    <p>My name is Joanna B. Quiñanola, and I am from Villa Kalubihan Basak San Nicolas Cebu City. I’m 19 yrs old and a second year BS Information Technology student at CTU University.</p>
+    <p>I am pursuing a Bachelor of Science in Information Technology. While my academic focus is on coding, web design, and tech, there's much more to me than just my studies. I’m passionate about learning and constantly exploring how technology can transform the world around us.</p>
+    <p>When I’m feeling down or need a moment of relaxation, I find solace in music specifically English songs. Music helps me stay grounded and provides me with a sense of comfort, acting as a companion through various ups and downs.</p>
+    <p>I believe strongly in the power of creativity and self-expression. My values center around curiosity, kindness, and resilience. I’m curious about the world, eager to learn not just from books and classes but from every experience and person I meet. I strive to be kind, to understand people from different walks of life, and to approach situations with empathy. And resilience is my backbone whether it’s a tough project, a challenging course, or personal setbacks, I’m determined to push through and emerge stronger.</p>
+    <p>Outside of academics and technology, I enjoy exploring different perspectives, challenging myself with new ideas, and learning from diverse cultures. Life, to me, is a journey of continuous growth, and I aspire to live in a way that brings value not only to myself but also to those around me and also to my family, that inspires me to achieve all of these things.</p>
+    <img src="fam.jpg" height="200" width="300" alt="Family Photo">
+    <img src="gwaps.jpg" height="200" width="200" alt="My Photo">
+
+</section>
+
+<section id="education">
+    <h2>Education</h2>
+    <p>My journey began with small steps, an oversized backpack, and wide-eyed curiosity. Elementary school was filled with a love for learning about anything and everything science experiments, spelling bees, and the thrill of new friends. I quickly developed a fondness for exploring and understanding how things worked, always eager to dive into each day with enthusiasm.</p>
+    <p>As I transitioned to high school, the world grew a bit larger, and so did the challenges. High school was an adventure of discovery, finding passions, and trying out new interests. I faced the ups and downs of academics, found a few favorite subjects, and worked hard to balance studies with hobbies. This phase was about pushing boundaries, making lifelong friends, and learning a lot about self-expression.</p>
+    <p>In senior high, I was ready for something different a time for self-definition. I had to make more concrete decisions about the future and began focusing on areas that would help shape a career path. It was an exciting period full of challenging projects, group work, and preparation for college. Senior high felt like a bridge between adolescence and adulthood, and I tackled each subject with a new level of maturity.</p>
+    <p>Today, as a second-year BSIT student, I find college life a mix of exciting, challenging, and rewarding moments. College has opened doors to new possibilities, from coding projects and IT-based courses to learning design skills that could be a stepping stone to a dream career. My learning journey is now about turning passion into a skill set, and the college experience has become more than just academics it’s about self-growth and preparing for a successful future.</p>
+    <img src="one.jpg" height="100" width="100" alt="School Photo">
+    <img src="two.jpg" height="100" width="100" alt="School Photo">
+    <img src="three.jpg" height="100" width="100" alt="School Photo">
+    <img src="four.jpg" height="100" width="100" alt="School Photo">
+
+</section>
+
+<section id="skills">
+    <h2>Skills</h2>
+    <ul>
+        <li>Programming Languages: Python, Java, JavaScript</li>
+        <li>Web Development: HTML, CSS, React</li>
+        <li>Soft Skills: Teamwork, Communication, Problem-Solving</li>
+    </ul>
+    <p>Here are some logos of the technologies I am familiar with:</p>
+    <img src="python logo.jpg" height="100" width="100" alt="Tech Logos">
+     <img src="java logo.jpg" height="100" width="100" alt="Tech Logos">
+     <img src="JavaScript logo.png" height="100" width="100" alt="Tech Logos">
+
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>You can reach me via email at <a href="joannaquinz143@gmail.com">joannaquinz143@gmail.com</a>.</p>
+    <p>Connect with me on social media:</p>
+    <img src="facebook.jpg" height="100" width="100" alt="Tech Logos">
+    <img src="intagram.png" height="100" width="100" alt="Tech Logos">
+    <ul>
+        <li><a href="https://www.facebook.com/joanna.quinanola.5?mibextid=ZbWKwL">Facebook</a></li>
+        <li><a href="https://www.instagram.com/qjoanna29/">Instagram</a></li>
+    </ul>
+
+</section>
+
+</body>
+</html>
+
